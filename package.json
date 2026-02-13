@@ -1,0 +1,14 @@
+{
+  "name": "istanbul-kebap",
+  "version": "1.0.0",
+  "description": "Sito di Instanbul Kebap Bassano",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
