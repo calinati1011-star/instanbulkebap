@@ -1,1 +1,218 @@
-<!DOCTYPE html> <html lang="it"> <head> <meta charset="UTF-8" /> <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>Istanbul Kebap Bassano</title> <link rel="icon" type="image/png" href="favicon.png"> <link rel="stylesheet" href="styles.css" /> </head> <body> <div class="transizione-schermo"></div> <div class="sfondo-animato"></div> <div class="menu-principale"> <nav> <input type="checkbox" id="controllo-menu" /> <label for="controllo-menu" class="bottone-menu"> <ion-icon name="grid-outline" aria-hidden="true"></ion-icon> </label> <label class="scritta-logo">Istanbul Kebap</label> <ul> <li><a href="#inizio" onclick="document.getElementById('controllo-menu').checked = false">Home</a></li> <li><a href="#chi-siamo" onclick="document.getElementById('controllo-menu').checked = false">Perche' sceglierci</a></li> <li><a href="#recensioni" onclick="document.getElementById('controllo-menu').checked = false">Recensioni</a></li> <li><a href="#contatti" onclick="document.getElementById('controllo-menu').checked = false">Dove siamo</a></li> <li class="item-lista-foto"> <input type="checkbox" id="mostra-foto-toggle" /> <label for="mostra-foto-toggle" class="link-foto">Foto</label> <div class="sottomenu-foto"> <div class="item-foto"> <img src="Tacosfrancesi.png" alt="Tacos Francesi" /> <p>Tacos Francesi</p> </div> <div class="item-foto"> <img src="Salafamiglie.png" alt="Sala Famiglie" /> <p>Sala Famiglie</p> </div> <div class="item-foto"> <img src="griglia.png" alt="La nostra Griglia" /> <p>La nostra Griglia</p> </div> </div> </li> </ul> </nav> </div> <div class="sezione flessibile" id="inizio"> <div class="contenuto-testo"> <h1 class="titolo-principale">Il cibo <br />che ti fa <span>Sognare</span></h1> <p class="paragrafo-testo"> <strong>Istanbul Kebap</strong>, dal 2001 portiamo a Bassano l'autentica tradizione turca. Qualità, freschezza e passione in ogni piatto. </p> <a href="#contatti" class="bottone-azione">Vieni a trovarci</a> </div> <div class="contenuto-visivo"> <img src="logo.png" alt="Logo Istanbul Kebap" class="logo-hero" /> </div> </div> <div class="sezione" id="chi-siamo"> <h2 class="titolo-secondario">Perché sceglierci</h2> <div class="contenitore-griglia flessibile-stretch"> <div class="scheda-info"> <ion-icon name="trophy-outline" aria-hidden="true"></ion-icon> <h3>Kebab autentico</h3> <p>Ricette tradizionali e carne di prima scelta preparata ogni giorno.</p> </div> <div class="scheda-info attiva"> <ion-icon name="timer-outline" aria-hidden="true"></ion-icon> <h3>Velocità</h3> <p>Servizio rapido ideale per pranzi di lavoro o cene veloci.</p> </div> <div class="scheda-info"> <ion-icon name="checkmark-done-circle-outline" aria-hidden="true"></ion-icon> <h3>Accoglienza</h3> <p>Ampia sala per famiglie e un ambiente pulito e cordiale.</p> </div> </div> <div class="contenitore-bottone-menu"> <a href="menu.html" class="bottone-menu-pagina"> <ion-icon name="restaurant-outline"></ion-icon> Sfoglia i piatti migliori </a> </div> </div> <div class="sezione" id="recensioni"> <h2 class="titolo-secondario">Cosa dicono di noi</h2> <div class="wrapper-slider"> <div class="slider-container"> <div class="slider-recensioni" id="slider"> <div class="card-recensione"> <div class="header-recensione"> <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" class="google-icon" alt="Google"> <div class="stelle">★★★★★</div> </div> <p>"Molto buono , tutto fresco, e molto piacevole e pulito , come freschezza dei prodotti e qualità e molto buona della prezzo e giusto"</p> <h4>ефимия якимчук</h4> </div> <div class="card-recensione"> <div class="header-recensione"> <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" class="google-icon" alt="Google"> <div class="stelle">★★★★★</div> </div> <p>"Kebab molto buono, il migliore di bassano"</p> <h4>Dennys</h4> </div> <div class="card-recensione"> <div class="header-recensione"> <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" class="google-icon" alt="Google"> <div class="stelle">★★★★★</div> </div> <p>"Buono Ma poi locale pulito , profumato Top"</p> <h4>Luca Szczesniak</h4> </div> <div class="card-recensione"> <div class="header-recensione"> <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" class="google-icon" alt="Google"> <div class="stelle">★★★★★</div> </div> <p>"Ho mangiato il menu pad, il migliore del bassan, anche la patata era molto buona, capisci che mangi carne. Il prezzo è molto conveniente, sono molto soddisfatto, grazie"</p> <h4>İsmail Erlale</h4> </div> </div> </div> <div class="controlli-slider"> <button class="freccia-slider" onclick="cambiaSlide(-1)"> <ion-icon name="arrow-back-outline"></ion-icon> </button> <button class="freccia-slider" onclick="cambiaSlide(1)"> <ion-icon name="arrow-forward-outline"></ion-icon> </button> </div> </div> </div> <div class="sezione sezione-contatti" id="contatti"> <div class="contenitore-griglia flessibile"> <div class="contenuto-visivo"> <div class="cornice-mappa"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2778.647783359146!2d11.738918676865231!3d45.76860267108035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4778db85e97dd1e3%3A0xe808941efb7dc81e!2sIstanbul%20Kebap!5e0!3m2!1sit!2sit!4v1700000000000!5m2!1sit!2sit" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </div> </div> <div class="contenuto-testo"> <h2 class="titolo-secondario">Vieni a trovarci</h2> <p class="indirizzo">Viale Venezia, 16, Bassano del Grappa (VI)</p> <p class="telefono"><ion-icon name="call-outline"></ion-icon> <strong>+39 0424 1954321</strong></p> <div class="zona-pulsanti flessibile"> <a href="https://instagram.com/bassano.kebap" target="_blank" class="pulsante-social"> <ion-icon name="logo-instagram"></ion-icon> <div class="testo-social"> <small>INSTAGRAM</small> <span>@bassano.kebap</span> </div> </a> <a href="https://instagram.com/rosa_kebap" target="_blank" class="pulsante-social"> <ion-icon name="logo-instagram"></ion-icon> <div class="testo-social"> <small>SEGUICI</small> <span>@rosa_kebap</span> </div> </a> </div> </div> </div> </div> <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script> <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script> <script> window.addEventListener('load', () => { const sipario = document.querySelector('.transizione-schermo'); sipario.classList.add('ritiro'); }); document.querySelector('.bottone-menu-pagina').addEventListener('click', function(e) { e.preventDefault(); const target = this.href; const sipario = document.querySelector('.transizione-schermo'); sipario.classList.remove('ritiro'); sipario.classList.add('attiva'); setTimeout(() => { window.location.href = target; }, 600); }); let indiceattuale = 0; function cambiaSlide(direzione) { const slider = document.getElementById('slider'); const cards = document.querySelectorAll('.card-recensione'); const totale = cards.length; indiceattuale = (indiceattuale + direzione + totale) % totale; const spostamento = indiceattuale * -100; slider.style.transform = `translateX(${spostamento}%)`; } </script> </body> </html>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Istanbul Kebap Bassano</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="transizione-schermo"></div>
+    <div class="sfondo-animato"></div>
+    <div class="menu-principale">
+        <nav>
+            <input type="checkbox" id="controllo-menu" />
+            <label for="controllo-menu" class="bottone-menu">
+                <ion-icon name="grid-outline" aria-hidden="true"></ion-icon>
+            </label>
+            <label class="scritta-logo">Istanbul Kebap</label>
+            <ul>
+                <li><a href="#inizio" onclick="document.getElementById('controllo-menu').checked = false">Home</a></li>
+                <li><a href="#chi-siamo" onclick="document.getElementById('controllo-menu').checked = false">Perche' sceglierci</a></li>
+                <li><a href="#recensioni" onclick="document.getElementById('controllo-menu').checked = false">Recensioni</a></li>
+                <li><a href="#contatti" onclick="document.getElementById('controllo-menu').checked = false">Dove siamo</a></li>
+                <li class="item-lista-foto">
+                    <input type="checkbox" id="mostra-foto-toggle" />
+                    <label for="mostra-foto-toggle" class="link-foto">Foto</label>
+                    <div class="sottomenu-foto">
+                        <div class="item-foto">
+                            <img src="Tacosfrancesi.png" alt="Tacos Francesi" />
+                            <p>Tacos Francesi</p>
+                        </div>
+                        <div class="item-foto">
+                            <img src="Salafamiglie.png" alt="Sala Famiglie" />
+                            <p>Sala Famiglie</p>
+                        </div>
+                        <div class="item-foto">
+                            <img src="griglia.png" alt="La nostra Griglia" />
+                            <p>La nostra Griglia</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="sezione flessibile" id="inizio">
+        <div class="contenuto-testo">
+            <h1 class="titolo-principale">Il cibo <br />che ti fa <span>Sognare</span></h1>
+            <p class="paragrafo-testo">
+                <strong>Istanbul Kebap</strong>, dal 2001 portiamo a Bassano l'autentica tradizione turca. Qualità, freschezza e passione in ogni piatto.
+            </p>
+            <a href="#contatti" class="bottone-azione">Vieni a trovarci</a>
+        </div>
+        <div class="contenuto-visivo">
+            <img src="logo.png" alt="Logo Istanbul Kebap" class="logo-hero" />
+        </div>
+    </div>
+
+    <div class="ticker-container">
+        <div class="ticker-wrap">
+            <div class="ticker-scroll">
+                <img src="logo.png" alt="Logo">
+                <img src="logo.png" alt="Logo">
+                <img src="logo.png" alt="Logo">
+                <img src="logo.png" alt="Logo">
+                <img src="logo.png" alt="Logo">
+                <img src="logo.png" alt="Logo">
+                <img src="logo.png" alt="Logo">
+                <img src="logo.png" alt="Logo">
+                <img src="logo.png" alt="Logo">
+                <img src="logo.png" alt="Logo">
+                <img src="logo.png" alt="Logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+        </div>
+    </div>
+
+    <div class="sezione" id="chi-siamo">
+        <h2 class="titolo-secondario">Perché sceglierci</h2>
+        <div class="contenitore-griglia flessibile-stretch">
+            <div class="scheda-info">
+                <ion-icon name="trophy-outline" aria-hidden="true"></ion-icon>
+                <h3>Kebab autentico</h3>
+                <p>Ricette tradizionali e carne di prima scelta preparata ogni giorno.</p>
+            </div>
+            <div class="scheda-info attiva">
+                <ion-icon name="timer-outline" aria-hidden="true"></ion-icon>
+                <h3>Velocità</h3>
+                <p>Servizio rapido ideale per pranzi di lavoro o cene veloci.</p>
+            </div>
+            <div class="scheda-info">
+                <ion-icon name="checkmark-done-circle-outline" aria-hidden="true"></ion-icon>
+                <h3>Accoglienza</h3>
+                <p>Ampia sala per famiglie e un ambiente pulito e cordiale.</p>
+            </div>
+        </div>
+        <div class="contenitore-bottone-menu">
+            <a href="menu.html" class="bottone-menu-pagina">
+                <ion-icon name="restaurant-outline"></ion-icon> Sfoglia i piatti migliori
+            </a>
+        </div>
+    </div>
+
+    <div class="sezione" id="recensioni">
+        <h2 class="titolo-secondario">Cosa dicono di noi</h2>
+        <div class="wrapper-slider">
+            <div class="slider-container">
+                <div class="slider-recensioni" id="slider">
+                    <div class="card-recensione">
+                        <div class="header-recensione">
+                            <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" class="google-icon" alt="Google">
+                            <div class="stelle">★★★★★</div>
+                        </div>
+                        <p>"Molto buono , tutto fresco, e molto piacevole e pulito , come freschezza dei prodotti e qualità e molto buona della prezzo e giusto"</p>
+                        <h4>ефимия якимчук</h4>
+                    </div>
+                    <div class="card-recensione">
+                        <div class="header-recensione">
+                            <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" class="google-icon" alt="Google">
+                            <div class="stelle">★★★★★</div>
+                        </div>
+                        <p>"Kebab molto buono, il migliore di bassano"</p>
+                        <h4>Dennys</h4>
+                    </div>
+                    <div class="card-recensione">
+                        <div class="header-recensione">
+                            <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" class="google-icon" alt="Google">
+                            <div class="stelle">★★★★★</div>
+                        </div>
+                        <p>"Buono Ma poi locale pulito , profumato Top"</p>
+                        <h4>Luca Szczesniak</h4>
+                    </div>
+                    <div class="card-recensione">
+                        <div class="header-recensione">
+                            <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" class="google-icon" alt="Google">
+                            <div class="stelle">★★★★★</div>
+                        </div>
+                        <p>"Ho mangiato il menu pad, il migliore del bassan, anche la patata era molto buona, capisci che mangi carne. Il prezzo è molto conveniente, sono molto soddisfatto, grazie"</p>
+                        <h4>İsmail Erlale</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="controlli-slider">
+                <button class="freccia-slider" onclick="cambiaSlide(-1)">
+                    <ion-icon name="arrow-back-outline"></ion-icon>
+                </button>
+                <button class="freccia-slider" onclick="cambiaSlide(1)">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="sezione sezione-contatti" id="contatti">
+        <div class="contenitore-griglia flessibile">
+            <div class="contenuto-visivo">
+                <div class="cornice-mappa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2778.647783359146!2d11.738918676865231!3d45.76860267108035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4778db85e97dd1e3%3A0xe808941efb7dc81e!2sIstanbul%20Kebap!5e0!3m2!1sit!2sit!4v1700000000000!5m2!1sit!2sit" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="contenuto-testo">
+                <h2 class="titolo-secondario">Vieni a trovarci</h2>
+                <p><strong>siamo aperti ogni giorno dalle 11:00 fino alle 00:00!</strong></p>
+                <p class="indirizzo">Viale Venezia, 16, Bassano del Grappa (VI)</p>
+                <p class="telefono"><ion-icon name="call-outline"></ion-icon> <strong>+39 0424 1954321</strong></p>
+                <div class="zona-pulsanti flessibile">
+                    <a href="https://instagram.com/bassano.kebap" target="_blank" class="pulsante-social">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <div class="testo-social">
+                            <small>INSTAGRAM</small>
+                            <span>@bassano.kebap</span>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/rosa_kebap" target="_blank" class="pulsante-social">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <div class="testo-social">
+                            <small>SEGUICI</small>
+                            <span>@rosa_kebap</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <script>
+        window.addEventListener('load', () => {
+            const sipario = document.querySelector('.transizione-schermo');
+            sipario.classList.add('ritiro');
+        });
+
+        document.querySelector('.bottone-menu-pagina').addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = this.href;
+            const sipario = document.querySelector('.transizione-schermo');
+            sipario.classList.remove('ritiro');
+            sipario.classList.add('attiva');
+            setTimeout(() => {
+                window.location.href = target;
+            }, 600);
+        });
+
+        let indiceattuale = 0;
+        function cambiaSlide(direzione) {
+            const slider = document.getElementById('slider');
+            const cards = document.querySelectorAll('.card-recensione');
+            const totale = cards.length;
+            indiceattuale = (indiceattuale + direzione + totale) % totale;
+            const spostamento = indiceattuale * -100;
+            slider.style.transform = `translateX(${spostamento}%)`;
+        }
+    </script>
+</body>
+</html>
